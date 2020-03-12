@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+
+@font-face {
+  font-family: "Roboto";
+  src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+ }
+
+ @font-face{
+ font-family: "Overpass";
+ src: url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+ }
+
+* {
+  font-family: 'Overpass', 'Roboto';
+  /* border: blue 1px solid; */
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  /* background-color: black; */
+}

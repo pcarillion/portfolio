@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    height: 30px;
+
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 1s;
+}
+
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content
+}
+
+.effect-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 2px;
+}
+
+.effect {
+    height: auto;
+    width: 0;
+    background-color: white;
+    transition: width 1s;
+}
+
+.link-container:hover .effect {
+    width: 100%
+}
