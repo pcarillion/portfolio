@@ -15,6 +15,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
+import Popup from "reactjs-popup";
 
 const Home = () => {
 
@@ -665,6 +666,83 @@ const Home = () => {
 
                     </div>
 
+                    <div data-aos="fade-right" className="project-section">
+                        <h2>Exilé.es Confiné.es</h2>
+                        <div className="project-image-div">
+                            <a  href="https://www.exile-confine.com"  target="_blank">
+                                <img className="project-image image-projet-1" src="./../../Exilé-es confiné-es - www.exile-confine.com.png"/>
+                            </a>
+                        </div>
+                        <p>Ce projet a été initié par Bon Abroad et Ensemble pour le changement
+                        dans le contexte de la crise sanitaire du COVID19 afin de mettre en 
+                        lien des personnes étrangères non-francophones isolées et des traducteurs bénévoles.
+                        Il s'agit d'une application web orientée mobile.</p>
+                        <ul>
+                            <li>Application en plusieurs langues</li>
+                            <li>Travail du design jusqu'au déploiement</li>
+                            <li>Compte administrateur: gestion des bénévoles et des langues</li>
+                        </ul>
+                        <p>Technologies utilisées</p>
+                        <ul>
+                            <li>React.Js pour le front</li>
+                            <li>Node.Js et Express.Js pour le back</li>
+                            <li>MongoDB et Postman pour la gestion de data</li>
+                            <li>Déployé sur Heroku (back) et Netlify (front)</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div className="portfolio-container2">
+
+                    <h1 data-aos="fade-down">Mes projets en cours</h1>
+
+                    <div data-aos="fade-right" className="project-section">
+                            <h2>Sudfa Media</h2>
+                            <div className="project-image-div">
+                             <img className="project-image image-projet-2" src="./../../sufamediahome.png"/>
+                             </div>
+                            <p>A l'origine un blog monté par des Soudanais de la diaspora et des Français
+                            à Lyon, le futur site de "Sudfa", qui signifie "par hasard" en arabe,
+                            sera un journal avec ses catégories et ses pages.</p>
+                            <ul>
+                                <li>Journal bilingue </li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Edition complète du journal: catégories, articles, pages...</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>React.Js pour le front</li>
+                                <li>Node.Js et Express.Js pour le back</li>
+                                <li>MongoDB et Postman pour la gestion de data</li>
+                            </ul>
+
+                    </div>
+
+                    <div data-aos="fade-left" className="project-section">
+                            <h2>Magna Mater</h2>
+                            <div className="project-image-div">
+                             <img className="project-image image-projet-2" src="./../../MagnaMaterhome.png"/>
+                             </div>
+                            <p>MagnaMater, un blog portant sur la pédagogie et l'éducation,
+                            qui a pour vocation de devenir le site vitrine d'une éducatrice
+                            proposant des services à la fois d'enseignement et de Formation
+                            en matière pédagogique.</p>
+                            <ul>
+                                <li>Configuration Wordpress avec thème sur mesure</li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Configuration du CMS prêt-à-l'emploi</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>WordPress.org</li>
+                                <li>HTML, CSS, JS, PHP, MySQL</li>
+                                <li>XAMPP pour le développement en local</li>
+                            </ul>
+
+                    </div>
+
                 </div>
 
                 <div className="transition3"></div>
@@ -673,7 +751,7 @@ const Home = () => {
                         
                     
 
-                    <div className="CV-div" id="CV">
+                <div className="CV-div" id="CV">
                     <h1 data-aos="fade-down">CV</h1>
 
                     <div data-aos="zoom-in" className="CV-border">
