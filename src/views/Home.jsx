@@ -673,7 +673,7 @@ const Home = () => {
                                 <img className="project-image image-projet-1" src="./../../Exilé-es confiné-es - www.exile-confine.com.png"/>
                             </a>
                         </div>
-                        <p>Ce projet a été initié par Bon Abroad et Ensemble pour le changement
+                        <p>Ce projet a été initié 
                         dans le contexte de la crise sanitaire du COVID19 afin de mettre en 
                         lien des personnes étrangères non-francophones isolées et des traducteurs bénévoles.
                         Il s'agit d'une application web orientée mobile.</p>
@@ -692,7 +692,34 @@ const Home = () => {
 
                     </div>
 
+                    <div data-aos="fade-left" className="project-section">
+                            <h2>Magna Mater</h2>
+                            <a href='magnamater.yo.fr' target='_blank'>
+                                <div className="project-image-div">
+                                <img className="project-image image-projet-2" src="./../../MagnaMaterhome.png"/>
+                                </div>
+                            </a>
+                            <p>MagnaMater, un blog portant sur la pédagogie et l'éducation,
+                            qui a pour vocation de devenir le site vitrine d'une éducatrice
+                            proposant des services d'expertise dans son domaine.
+                            (le contenu est en cours de rédaction).</p>
+                            <ul>
+                                <li>Configuration Wordpress avec thème sur mesure</li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Configuration du CMS prêt-à-l'emploi</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>WordPress.org</li>
+                                <li>HTML, CSS, JS, PHP, MySQL</li>
+                                <li>XAMPP pour le développement en local</li>
+                                <li>PlanetHoster pour le déploiement</li>
+                            </ul>
+
+                    </div>
+
                 </div>
+
 
                 <div className="portfolio-container2">
 
@@ -721,17 +748,15 @@ const Home = () => {
                     </div>
 
                     <div data-aos="fade-left" className="project-section">
-                            <h2>Magna Mater</h2>
+                            <h2>Mathilde Sergent - Portfolio</h2>
                             <div className="project-image-div">
-                             <img className="project-image image-projet-2" src="./../../MagnaMaterhome.png"/>
+                             <img className="project-image image-projet-3" src="./../../MathildeSergent .png"/>
                              </div>
-                            <p>MagnaMater, un blog portant sur la pédagogie et l'éducation,
-                            qui a pour vocation de devenir le site vitrine d'une éducatrice
-                            proposant des services à la fois d'enseignement et de Formation
-                            en matière pédagogique.</p>
+                            <p>Mathidle Sergent - Alice Danger est arrtiste, performeuse et
+                            écrivaine. Son travail est présenté dans le site : textes, poèmes, vidéos, audios.</p>
                             <ul>
                                 <li>Configuration Wordpress avec thème sur mesure</li>
-                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Conception graphique complète</li>
                                 <li>Configuration du CMS prêt-à-l'emploi</li>
                             </ul>
                             <p>Technologies utilisées</p>
@@ -742,6 +767,8 @@ const Home = () => {
                             </ul>
 
                     </div>
+
+                    
 
                 </div>
 
@@ -842,6 +869,7 @@ const Home = () => {
                     <section data-aos="zoom-in" className="contact-info">
                         <p>+ 33 6 79 75 24 86</p>
                         <p>pcarillion@yahoo.fr</p>
+                        <img src={"./../../monlogo.png"}/>
                     </section>
             </div>
             

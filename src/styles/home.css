@@ -429,6 +429,11 @@ iframe {
    
 }
 
+.image-projet-3{
+    height: 14em;
+    max-width: 50vw;
+}
+
 
 .portfolio-container2 > h1 {
     width: 100%;
@@ -602,11 +607,16 @@ iframe {
     border: none;
     padding: 1%;
     width: 50vw;
-    height: 30vh;
+    min-height: 30vh;
     border-radius: 8px;
     border: .5px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.contact-info img {
+    height: 100px;
+    width: 100px;
 }
