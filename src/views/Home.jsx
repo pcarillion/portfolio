@@ -2,13 +2,15 @@ import React, { useState, useEffect } from 'react';
 import NavMain from './../components/NavMain';
 import './../styles/home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
-import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleDown, faPenNib } from '@fortawesome/free-solid-svg-icons'
+import { faPencilAlt, faTv } from '@fortawesome/free-solid-svg-icons'
 import { faSyncAlt } from '@fortawesome/free-solid-svg-icons'
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import { faUserCog } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faWordpress} from '@fortawesome/free-brands-svg-icons'
+
 import Graphs from '../components/Graphs'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -25,7 +27,7 @@ const Home = () => {
     let [j, setj] = useState(0)
 
     let title1ToDisplay = "Paul Carillion";
-    let title2ToDisplay = "Junior Web Developer";
+    let title2ToDisplay = "Fullstack Web Developer";
 
     
     useEffect(() => { 
@@ -598,14 +600,17 @@ const Home = () => {
                             </div>
                             {/* <div className="complete"></div> */}
                     </div>
-                    {/*<div className="carousel-div">
-                            <p>Je cherche un CDI en tant que développeur.</p>
-                    </div>
-                    <div className="carousel-div">
-                            <p>Je peux aussi faire des projets en FreeLance.</p>
-                    </div> */}
+                   
+
                 </Carousel>
 
+            </div>
+
+            <div className="wordpress-div">
+                <h1 data-aos="fade-down">Envie d'un site sur Wordpress?</h1>
+                <FontAwesomeIcon data-aos="fade-down" icon={faWordpress} className="wordpress-icon"/>
+                <a href="#portfolio"><p data-aos="fade-down">Vous pouvez voir mes projets</p></a>
+                <a href="#contact"><p data-aos="fade-down">Et me contacter!</p></a>
             </div>
 
             <div className="graph-div">
@@ -626,7 +631,10 @@ const Home = () => {
 
                     <div data-aos="fade-right" className="project-section">
                         <h2>2020 Motorcycle Previews</h2>
-                        <iframe src="https://www.youtube.com/embed/bdZlHAy7U-c" frameborder="0" allow="accelerometer; fullscreen; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>                        <p>Ce projet est un site qui présente les collections
+                        <div className="project-image-div">
+                            <iframe src="https://www.youtube.com/embed/bdZlHAy7U-c" frameborder="0" allow="accelerometer; fullscreen; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>                        
+                        </div>
+                        <p>Ce projet est un site qui présente les collections
                         de motos qui vont sortir au cours de l'année. Vous pouvez, 
                         sur votre page utilisateur, sauvegarder vos coups de coeur
                         et, si vous êtes administrateur, modifier la base de données.</p>
@@ -646,12 +654,14 @@ const Home = () => {
 
                     <div data-aos="fade-left" className="project-section">
                         <h2>Mon scénario climat</h2>
+                        <div className="project-image-div">
                             <iframe  src="https://www.youtube.com/embed/EuxTE_vSoLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+                        </div>
                             <p>Ce projet est un site qui propose de paramétrer 
                             des choix de politique économique, énergétique et
                             sociale afin d'en définir l'impact climatique,
                             à partir d'une base de données alhorythmiques 
-                            fournie par B&L Evolution.</p>
+                            fournie par B&L Evolution. (<a href="http://mission-climat.io/">Version finale</a>)</p>
                             <ul>
                                 <li>Simulateur: curseurs et graphiques updatés en hooks</li>
                                 <li>Compte utilisateur: enregistrement de scénarios et full CRUD</li>
@@ -694,7 +704,7 @@ const Home = () => {
 
                     <div data-aos="fade-left" className="project-section">
                             <h2>Magna Mater</h2>
-                            <a href='magnamater.yo.fr' target='_blank'>
+                            <a href='https://magnamater.yo.fr' target='_blank'>
                                 <div className="project-image-div">
                                 <img className="project-image image-projet-2" src="./../../MagnaMaterhome.png"/>
                                 </div>
@@ -714,6 +724,53 @@ const Home = () => {
                                 <li>HTML, CSS, JS, PHP, MySQL</li>
                                 <li>XAMPP pour le développement en local</li>
                                 <li>PlanetHoster pour le déploiement</li>
+                            </ul>
+
+                    </div>
+
+                    <div data-aos="fade-right" className="project-section">
+                            <h2>El Rap El Arabi</h2>
+                            <a href="https://rap-arabe-blog.netlify.app/" target='_blank'>
+                                <div className="project-image-div">
+                                    <img className="project-image image-projet-2" src="./../../elrapelarabi.png"/>
+                                </div>
+                            </a>
+                            <p>Il s'agit d'un projet personnel de blog qui allie deux de mes centres
+                            d'intérêt: le hip-hop et le monde arabe. Le Site propose de relayer des articles
+                            et de faire connaître des artistes. Il s'agit de mon premier site sur Gatsby. </p>
+                            <ul>
+                                <li>Code du front</li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>CMS pour la gestion des données</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>Gatsby (React) pour le front</li>
+                                <li>CMS Contentful pour le back</li>
+                                <li>Netlify pour le déploiement</li>
+                            </ul>
+
+                    </div>
+
+                    <div data-aos="fade-left" className="project-section">
+                            <h2>Portfolio personnel</h2>
+                                <div className="project-image-div">
+                                    <img className="project-image image-projet-3" src="./../../portfolio.png"/>
+                                </div>
+                            <p>Il s'agit du portfolio sur lequel vous naviguez actuellement. Je l'ai bien
+                            évidemment développé sur mesure et je le mets régulièrement à jour pour présenter
+                            mes travaux accomplis et mes projets en cours. C'est le premier site su lequel j'ai
+                            travaillé seul et qui a été déployé.</p>
+                            <ul>
+                                <li>Site uniquement en front end (sans base de donnée)</li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Maintenance et mises à jour régulières</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>React.Js</li>
+                                <li>Librairies React pour les animations et dataviz</li>
+                                <li>Netlify pour le déploiement</li>
                             </ul>
 
                     </div>

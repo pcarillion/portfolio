@@ -19,6 +19,10 @@
 
 html{
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  /* background-color: black; */
+  -ms-overflow-style: none; 
+   /* background-color: black; */
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }

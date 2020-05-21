@@ -45,7 +45,7 @@
 }
 
 .title-div > div {
-    width: 350px;;
+    width: 360px;;
     height: 100px;
 }
 .title {
@@ -68,6 +68,8 @@
     height:30px;
 }
 
+
+
 .presentation {
     width: 100vw;
     height: 100vw;
@@ -89,13 +91,17 @@
 
 .presentation {
     /* padding: 5vh 0 vh; */
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#5B0500, #A8201A);}
+    background: linear-gradient(#5B0500, #A8201A);
+}
 
+.presentation > div {
+    width: 95%;
+}
 
 .carousel-div {
     height: 90vh;
@@ -134,6 +140,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 
 
 @media screen and (max-width: 1000px) {
@@ -283,7 +290,39 @@
     width: 60%;
 }
 
+/* Wordpress */
 
+.wordpress-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.wordpress-par {
+    color: white;
+}
+
+.wordpress-icon {
+    font-size: 5em;
+}
+
+.wordpress-icon:hover {
+    color: #135E96;
+}
+
+.wordpress-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.wordpress-div a:hover{
+    color: #135E96;
+}
+
+.wordpress-div h1 {
+    text-align: center;
+}
 
 /* Graphs div */
 
@@ -297,6 +336,7 @@
     background-size: contain;
     background-attachment: fixed;
     z-index: 1;
+    width: 100vw;
 }
 
 .layer {
@@ -328,6 +368,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    width: 100vw
 }
 
 .transition2 {
@@ -347,7 +388,7 @@
 
 .portfolio-container {
     /* min-height: 100vh; */
-    width: 100vw;
+    width: 90%;;
     background-image: linear-gradient(#0F8B8D, #143642 );
     display: flex;
     flex-direction: row;
@@ -359,7 +400,7 @@
 
 .portfolio-container2 {
     /* min-height: 100vh; */
-    width: 100vw;
+    width: 90%;
     background-image: linear-gradient( #143642, #0F8B8D);
     display: flex;
     flex-direction: row;
@@ -380,10 +421,11 @@
 }
 
 iframe {
-    width: 100%;
+    width: 95%;
     height: 14em;
     border: 6px solid rgba(0, 0, 0, 0.8);
     border-radius: 15px;
+    margin: 0 auto;
 }
 
 .project-image-div {
@@ -443,6 +485,13 @@ iframe {
 }
 
 
+
+@media screen and (max-width: 1050px) {
+    .project-image, .image-project-2, .image-project-1, .image-project-3{
+        max-width: 90%;
+        max-height: 30vh;
+    }
+}
 
 
 /* CV */
