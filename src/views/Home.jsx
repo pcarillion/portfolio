@@ -18,6 +18,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
 import Popup from "reactjs-popup";
+import '../script/script.js'
 
 const Home = () => {
 
@@ -759,8 +760,7 @@ const Home = () => {
                                 </div>
                             <p>Il s'agit du portfolio sur lequel vous naviguez actuellement. Je l'ai bien
                             évidemment développé sur mesure et je le mets régulièrement à jour pour présenter
-                            mes travaux accomplis et mes projets en cours. C'est le premier site su lequel j'ai
-                            travaillé seul et qui a été déployé.</p>
+                            mes travaux accomplis et mes projets en cours. </p>
                             <ul>
                                 <li>Site uniquement en front end (sans base de donnée)</li>
                                 <li>Travail du design jusqu'au déploiement</li>
