@@ -630,6 +630,108 @@ const Home = () => {
                 
                 <div className="portfolio-container">
 
+                        <div data-aos="fade-right" className="project-section">
+                                <h2>El Rap El Arabi</h2>
+                                <a href="https://rap-arabe-blog.netlify.app/" target='_blank'>
+                                    <div className="project-image-div">
+                                        <img className="project-image image-projet-2" src="./../../elrapelarabi.png"/>
+                                    </div>
+                                </a>
+                                <p>Il s'agit d'un projet personnel de blog qui allie deux de mes centres
+                                d'intérêt: le hip-hop et le monde arabe. Le Site propose de relayer des articles
+                                et de faire connaître des artistes. Il s'agit de mon premier site sur Gatsby. </p>
+                                <ul>
+                                    <li>Code du front</li>
+                                    <li>Travail du design jusqu'au déploiement (+ SEO)</li>
+                                    <li>CMS pour la gestion des données</li>
+                                </ul>
+                                <p>Technologies utilisées</p>
+                                <ul>
+                                    <li>Gatsby (React) pour le front</li>
+                                    <li>CMS Contentful pour le back</li>
+                                    <li>Netlify pour le déploiement</li>
+                                </ul>
+
+                        </div>
+
+                        <div data-aos="fade-left" className="project-section">
+                            <h2>Portfolio personnel</h2>
+                                <div className="project-image-div">
+                                    <img className="project-image image-projet-3" src="./../../portfolio.png"/>
+                                </div>
+                            <p>Il s'agit du portfolio sur lequel vous naviguez actuellement. Je l'ai bien
+                            évidemment développé sur mesure et je le mets régulièrement à jour pour présenter
+                            mes travaux accomplis et mes projets en cours. </p>
+                            <ul>
+                                <li>Site uniquement en front end (sans base de donnée)</li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Maintenance et mises à jour régulières</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>React.Js</li>
+                                <li>Librairies React pour les animations et dataviz</li>
+                                <li>Netlify pour le déploiement</li>
+                            </ul>
+
+                        </div>
+
+                        <div data-aos="fade-right" className="project-section">
+                        <h2>Exilé.es Confiné.es</h2>
+                        <div className="project-image-div">
+                            <a  href="https://www.exile-confine.com"  target="_blank">
+                                <img className="project-image image-projet-1" src="./../../Exilé-es confiné-es - www.exile-confine.com.png"/>
+                            </a>
+                        </div>
+                        <p>Ce projet a été initié 
+                        dans le contexte de la crise sanitaire du COVID19 afin de mettre en 
+                        lien des personnes étrangères non-francophones isolées et des traducteurs bénévoles.
+                        Il s'agit d'une application web orientée mobile.</p>
+                        <ul>
+                            <li>Application en plusieurs langues</li>
+                            <li>Travail du design jusqu'au déploiement</li>
+                            <li>Compte administrateur: gestion des bénévoles et des langues</li>
+                        </ul>
+                        <p>Technologies utilisées</p>
+                        <ul>
+                            <li>React.Js pour le front</li>
+                            <li>Node.Js et Express.Js pour le back</li>
+                            <li>MongoDB et Postman pour la gestion de data</li>
+                            <li>Déployé sur Heroku (back) et Netlify (front)</li>
+                        </ul>
+
+                    </div>
+
+                        <div data-aos="fade-left" className="project-section">
+                            <h2>Magna Mater</h2>
+                            <a href='https://magnamater.yo.fr' target='_blank'>
+                                <div className="project-image-div">
+                                <img className="project-image image-projet-2" src="./../../MagnaMaterhome.png"/>
+                                </div>
+                            </a>
+                            <p>MagnaMater, un blog portant sur la pédagogie et l'éducation,
+                            qui a pour vocation de devenir le site vitrine d'une éducatrice
+                            proposant des services d'expertise dans son domaine.
+                            (le contenu est en cours de rédaction).</p>
+                            <ul>
+                                <li>Configuration Wordpress avec thème sur mesure</li>
+                                <li>Travail du design jusqu'au déploiement</li>
+                                <li>Configuration du CMS prêt-à-l'emploi</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>WordPress.org</li>
+                                <li>HTML, CSS, JS, PHP, MySQL</li>
+                                <li>XAMPP pour le développement en local</li>
+                                <li>PlanetHoster pour le déploiement</li>
+                            </ul>
+
+                        </div>
+
+
+
+
+
                     <div data-aos="fade-right" className="project-section">
                         <h2>2020 Motorcycle Previews</h2>
                         <div className="project-image-div">
@@ -677,103 +779,12 @@ const Home = () => {
 
                     </div>
 
-                    <div data-aos="fade-right" className="project-section">
-                        <h2>Exilé.es Confiné.es</h2>
-                        <div className="project-image-div">
-                            <a  href="https://www.exile-confine.com"  target="_blank">
-                                <img className="project-image image-projet-1" src="./../../Exilé-es confiné-es - www.exile-confine.com.png"/>
-                            </a>
-                        </div>
-                        <p>Ce projet a été initié 
-                        dans le contexte de la crise sanitaire du COVID19 afin de mettre en 
-                        lien des personnes étrangères non-francophones isolées et des traducteurs bénévoles.
-                        Il s'agit d'une application web orientée mobile.</p>
-                        <ul>
-                            <li>Application en plusieurs langues</li>
-                            <li>Travail du design jusqu'au déploiement</li>
-                            <li>Compte administrateur: gestion des bénévoles et des langues</li>
-                        </ul>
-                        <p>Technologies utilisées</p>
-                        <ul>
-                            <li>React.Js pour le front</li>
-                            <li>Node.Js et Express.Js pour le back</li>
-                            <li>MongoDB et Postman pour la gestion de data</li>
-                            <li>Déployé sur Heroku (back) et Netlify (front)</li>
-                        </ul>
+                    
 
-                    </div>
+                    
 
-                    <div data-aos="fade-left" className="project-section">
-                            <h2>Magna Mater</h2>
-                            <a href='https://magnamater.yo.fr' target='_blank'>
-                                <div className="project-image-div">
-                                <img className="project-image image-projet-2" src="./../../MagnaMaterhome.png"/>
-                                </div>
-                            </a>
-                            <p>MagnaMater, un blog portant sur la pédagogie et l'éducation,
-                            qui a pour vocation de devenir le site vitrine d'une éducatrice
-                            proposant des services d'expertise dans son domaine.
-                            (le contenu est en cours de rédaction).</p>
-                            <ul>
-                                <li>Configuration Wordpress avec thème sur mesure</li>
-                                <li>Travail du design jusqu'au déploiement</li>
-                                <li>Configuration du CMS prêt-à-l'emploi</li>
-                            </ul>
-                            <p>Technologies utilisées</p>
-                            <ul>
-                                <li>WordPress.org</li>
-                                <li>HTML, CSS, JS, PHP, MySQL</li>
-                                <li>XAMPP pour le développement en local</li>
-                                <li>PlanetHoster pour le déploiement</li>
-                            </ul>
-
-                    </div>
-
-                    <div data-aos="fade-right" className="project-section">
-                            <h2>El Rap El Arabi</h2>
-                            <a href="https://rap-arabe-blog.netlify.app/" target='_blank'>
-                                <div className="project-image-div">
-                                    <img className="project-image image-projet-2" src="./../../elrapelarabi.png"/>
-                                </div>
-                            </a>
-                            <p>Il s'agit d'un projet personnel de blog qui allie deux de mes centres
-                            d'intérêt: le hip-hop et le monde arabe. Le Site propose de relayer des articles
-                            et de faire connaître des artistes. Il s'agit de mon premier site sur Gatsby. </p>
-                            <ul>
-                                <li>Code du front</li>
-                                <li>Travail du design jusqu'au déploiement</li>
-                                <li>CMS pour la gestion des données</li>
-                            </ul>
-                            <p>Technologies utilisées</p>
-                            <ul>
-                                <li>Gatsby (React) pour le front</li>
-                                <li>CMS Contentful pour le back</li>
-                                <li>Netlify pour le déploiement</li>
-                            </ul>
-
-                    </div>
-
-                    <div data-aos="fade-left" className="project-section">
-                            <h2>Portfolio personnel</h2>
-                                <div className="project-image-div">
-                                    <img className="project-image image-projet-3" src="./../../portfolio.png"/>
-                                </div>
-                            <p>Il s'agit du portfolio sur lequel vous naviguez actuellement. Je l'ai bien
-                            évidemment développé sur mesure et je le mets régulièrement à jour pour présenter
-                            mes travaux accomplis et mes projets en cours. </p>
-                            <ul>
-                                <li>Site uniquement en front end (sans base de donnée)</li>
-                                <li>Travail du design jusqu'au déploiement</li>
-                                <li>Maintenance et mises à jour régulières</li>
-                            </ul>
-                            <p>Technologies utilisées</p>
-                            <ul>
-                                <li>React.Js</li>
-                                <li>Librairies React pour les animations et dataviz</li>
-                                <li>Netlify pour le déploiement</li>
-                            </ul>
-
-                    </div>
+                    
+                    
 
                 </div>
 
@@ -788,28 +799,27 @@ const Home = () => {
                              <img className="project-image image-projet-2" src="./../../sufamediahome.png"/>
                              </div>
                             <p>A l'origine un blog monté par des Soudanais de la diaspora et des Français
-                            à Lyon, le futur site de "Sudfa", qui signifie "par hasard" en arabe,
-                            sera un journal avec ses catégories et ses pages.</p>
+                            à Lyon, le site de "Sudfa", qui signifie "par hasard" en arabe,
+                            est un journal en ligne. <a href='https://gracious-hoover-5a6a6e.netlify.app/'> Voir le chantier</a></p>
                             <ul>
-                                <li>Journal bilingue </li>
-                                <li>Travail du design jusqu'au déploiement</li>
-                                <li>Edition complète du journal: catégories, articles, pages...</li>
+                                <li>Développement frontend avec Gatsby.JS et React.Js (hooks)</li>
+                                <li>Travail du design jusqu'au déploiement (+ SEO)</li>
+                                <li>Edition complète du journal: articles, auteurs, catégories...</li>
                             </ul>
                             <p>Technologies utilisées</p>
                             <ul>
-                                <li>React.Js pour le front</li>
-                                <li>Node.Js et Express.Js pour le back</li>
-                                <li>MongoDB et Postman pour la gestion de data</li>
+                                <li>Gatsby et React pour le front</li>
+                                <li>CMS Headless en back (Contentful)</li>
                             </ul>
 
                     </div>
 
                     <div data-aos="fade-left" className="project-section">
-                            <h2>Mathilde Sergent - Portfolio</h2>
+                            <h2>Mat Sergent - Portfolio</h2>
                             <div className="project-image-div">
                              <img className="project-image image-projet-3" src="./../../MathildeSergent .png"/>
                              </div>
-                            <p>Mathidle Sergent - Alice Danger est arrtiste, performeuse et
+                            <p>Mat Sergent - Alice Danger est arrtiste, performeuse et
                             écrivaine. Son travail est présenté dans le site : textes, poèmes, vidéos, audios.</p>
                             <ul>
                                 <li>Configuration Wordpress avec thème sur mesure</li>
@@ -821,6 +831,26 @@ const Home = () => {
                                 <li>WordPress.org</li>
                                 <li>HTML, CSS, JS, PHP, MySQL</li>
                                 <li>XAMPP pour le développement en local</li>
+                            </ul>
+
+                    </div>
+
+                    <div data-aos="fade-right" className="project-section">
+                            <h2>Thomas Jardin Photographie</h2>
+                            <div className="project-image-div">
+                             <img className="project-image image-projet-2" src="./../../thomasjardin-photographie.com.png"/>
+                             </div>
+                            <p>Thomas Jardin est photographe professionnel. Je lui ai conçu un portefolio pour qu'il puisse présenter son travail
+                            dans les différents types de photographie qu'il propose: mode, produit, reportage...<a href='https://thomasjardin-photographie.com/'> Voir le chantier</a></p>
+                            <ul>
+                                <li>Développement frontend avec Gatsby.JS et React.Js (hooks)</li>
+                                <li>Travail du design jusqu'au déploiement (+ SEO)</li>
+                                <li>Edition complète du portefolio: séries, photos, ...</li>
+                            </ul>
+                            <p>Technologies utilisées</p>
+                            <ul>
+                                <li>Gatsby et React pour le front</li>
+                                <li>CMS Headless en back (Contentful)</li>
                             </ul>
 
                     </div>
