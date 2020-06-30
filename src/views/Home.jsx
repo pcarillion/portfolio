@@ -907,6 +907,13 @@ const Home = () => {
                     <div id="experience" class="cvContent">
                         <h3>Experience</h3>
                         <ul>
+                            <li>2020: Développeur indépendant
+                                <ul>
+                                    <li>Conception, développement, déploiement et maintenance d'applications web</li>
+                                    <li>Souplesse sur les technologies utilisées pour l'adapter à la demande</li>
+                                    <li>Accompagnement dans la création et la prise en main</li>
+                                </ul>
+                            </li>
                             <li>2017-2019: Enseignant en philosophie et éthique du travail social - Centre de Formation de l'Essonne (Grigny, 91)
                                 <ul>
                                     <li>Cours de philosophie de l'éducation et sociale</li>
